@@ -4,7 +4,7 @@ LIB = -lncurses
 
 .PHONY: all clean lint
 
-all: TicTacToe lint
+all: TicTacToe
 
 %.o: %.cpp
 	$(CC) $(CFLAGS) -c $<
